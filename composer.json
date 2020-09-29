@@ -1,0 +1,18 @@
+{
+    "name": "toddwebnet/apis",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Todd",
+            "email": "toddwebnet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ToddWebNet\\Apis\\": "src/"
+        }
+    },
+    "require": {}
+}
