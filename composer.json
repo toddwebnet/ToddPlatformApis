@@ -1,6 +1,7 @@
 {
     "name": "toddwebnet/apis",
-    "type": "project",
+    "description": "apis",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
