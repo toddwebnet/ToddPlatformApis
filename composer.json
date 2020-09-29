@@ -10,10 +10,24 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.1@dev",
+        "illuminate/log": "^9.0@dev",
+        "ext-json": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4@dev",
+        "fzaninotto/faker": "^1.9@dev",
+        "mockery/mockery": "^1.4@dev"
+    },
     "autoload": {
         "psr-4": {
             "ToddWebNet\\Apis\\": "src/"
         }
     },
-    "require": {}
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
 }
